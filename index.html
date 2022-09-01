@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="/spaceClock/assets/earth.png" type="image/x-icon">
+</head>
+<body>
+    <div class="sky-container">
+        <div class="nebulosa"></div>
+        <div class="stars-static"></div>
+        <div class="moving-stars"></div>
+        <div class="moving-stars"></div>
+        <div class="moving-stars"></div>
+        <div class="moving-stars"></div>
+        <div class="moving-stars"></div>
+        <div class="earth-container">
+            <img src="/spaceClock/assets/earth.png" class="earth" draggable="false" alt="planet earth">
+        </div>
+        <img src="/spaceClock/assets/rock.png" class="rock" draggable="false" alt="planet rock">
+        <img src="/spaceClock/assets/ice.png" class="ice" draggable="false" alt="planet ice">
+        <div class="clock-container">
+            <span id="hours">00</span>
+            <span>:</span>
+            <span id="minutes">00</span>
+            <span>:</span>
+            <span id="seconds">00</span>
+            <span id="session">AM</span>
+        </div>
+        <footer>
+            <p>Resources:</p>
+            <p>Planets created by upklyak at <a href="https://www.freepik.com" target="_blank">
+                Freepik
+            </a></p>
+            <p>
+                Stars and nebula effects designed by <a href="https://www.freepik.com" target="_blank">
+                    Freepik
+                </a>
+            </p>
+        </footer>
+    </div>
+<script src="index.js"></script>    
+</body>
+</html>
