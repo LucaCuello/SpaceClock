@@ -68,7 +68,7 @@ html
     position: fixed;
     min-height: 100vh;
     width: 100%;
-    background-image: url(/spaceClock/assets/stars.svg);
+    background-image: url(assets/stars.svg);
     background-position: center;
     background-size: contain;
     z-index: 0;
@@ -78,7 +78,7 @@ html
     min-height: 100vh;
     position: fixed;
     width: 100%;
-    background-image: url(/spaceClock/assets/nebulosa.png);
+    background-image: url(assets/nebulosa.png);
     background-position: center;
     background-size: cover;
 }
@@ -110,7 +110,7 @@ html
     display: inline-block;
     content: "";
     position: absolute;
-    background-image: url(/spaceClock/assets/star.png);
+    background-image: url(assets/star.png);
     background-repeat: no-repeat;
     background-size: 8rem auto;
     height: 200px;
